@@ -1,3 +1,58 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+section{
+    height: 500px;
+    width: auto;
+}
+.top-banner{
+    height: 600px;
+    background-image: url("images/donation13.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.top-banner-title{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+.donate-now-btn{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(230, 78, 7);
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    padding: 50px;
+
+}
+footer h5{
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(173, 47, 25);
+    font-size: 20px;
+}
+footer p{
+    color: white;
+    padding: 0;
+    text-align: center;
+    font-size: 5px gray;
 }
