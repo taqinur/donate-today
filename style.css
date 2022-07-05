@@ -8,7 +8,20 @@ h1{
 h2{
     font-size: 40px;
 }
-
+h3{
+    font-size: 25px;
+}
+section{
+    height: 650px;
+}
+p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#banner-para{
+    color: white;
+}
 .top-banner{
     height: 600px;
     background-image: url("images/donation13.jpg");
@@ -33,21 +46,18 @@ h2{
     margin: 0;
 }
 
-.donate-today{
-    height: 650px;
-}
 .description{
     padding-top: 100px;
     text-align: center;
 }
 
 .amount{
+    margin-top: 30px;
+    margin-left: 8%;
     display: inline-block;
-    margin-left: 1%;
-    width: 15%;
-    height: 100px;
-    background: lightgray;
-    padding: 23px;
+    width: 10%;
+    height: 80px;
+    background: rgb(226, 226, 226);
     text-align: center;
     border-radius: 5px;
 }
@@ -61,22 +71,57 @@ h2{
 .write-amount{
     padding-top: 20px;
     text-align: center;
-    color: gray;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.donation-plan{
+    text-align: center;
+}
+
+.available-plans{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+    height: 300px;
+    width: 25%;
+}
+#food{
+    background-color: rgb(231, 243, 239);
+}
+#shelter{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f1e3e4;
+}
+#child-education{
+    background-color: rgb(255, 255, 213);
+}
+
+.photo-album{
+    height: 500px;
+    text-align: center;
+}
+.photos{
+    padding: 40px;
+    display: inline-block;
+    text-align: left;
 }
 
 footer{
     background-color: black;
     height: 100px;
     padding: 20px;
-
 }
 footer h5{
     padding: 0;
     font-family: cursive;
     text-align: center;
-    color: rgb(214, 13, 97);
+    color: #e65054;
     font-size: 20px;
 }
 footer p{
