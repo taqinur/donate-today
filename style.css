@@ -3,15 +3,12 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
-section{
-    height: 500px;
-    width: 100%;
-}
+
 .top-banner{
     height: 600px;
     background-image: url("images/donation13.jpg");
@@ -26,7 +23,7 @@ section{
 .donate-now-btn{
     text-decoration: none;
     font-size: 15px;
-    background-color: #e65054;
+    background-color: #db2b31;
     width: 150px;
     padding: 10px 5px;
     border-color: #e65054;
@@ -34,6 +31,39 @@ section{
     color: white;
     font-weight: 800;
     margin: 0;
+}
+
+.donate-today{
+    height: 650px;
+}
+.description{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.amount{
+    display: inline-block;
+    margin-left: 1%;
+    width: 15%;
+    height: 100px;
+    background: lightgray;
+    padding: 23px;
+    text-align: center;
+    border-radius: 5px;
+}
+#selected-amount{
+    color: #e65054;
+    background-color: #e6d4d4;
+    border: 2px solid;
+    border-color: #e65054;
+}
+
+.write-amount{
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer{
