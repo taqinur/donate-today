@@ -8,12 +8,9 @@ h1{
 h2{
     font-size: 30px;
 }
-p{
-    font-size: 20px;
-}
 section{
     height: 500px;
-    width: auto;
+    width: 100%;
 }
 .top-banner{
     height: 600px;
@@ -29,30 +26,32 @@ section{
 .donate-now-btn{
     text-decoration: none;
     font-size: 15px;
-    background-color: rgb(230, 78, 7);
+    background-color: #e65054;
     width: 150px;
     padding: 10px 5px;
+    border-color: #e65054;
     border-radius: 5px;
     color: white;
     font-weight: 800;
+    margin: 0;
 }
 
 footer{
     background-color: black;
     height: 100px;
-    padding: 50px;
+    padding: 20px;
 
 }
 footer h5{
     padding: 0;
     font-family: cursive;
     text-align: center;
-    color: rgb(173, 47, 25);
+    color: rgb(214, 13, 97);
     font-size: 20px;
 }
 footer p{
     color: white;
     padding: 0;
     text-align: center;
-    font-size: 5px gray;
+    font-size: 15px;
 }
