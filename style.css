@@ -75,6 +75,13 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
+#other-amount{
+    margin: 0;
+    width: 100%;
+    border: none;
+    font-size: medium;
+    text-align: center;
+}
 
 .donation-plan{
     text-align: center;
